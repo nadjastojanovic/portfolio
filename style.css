@@ -1,0 +1,405 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#welcome {
+    background-color:/* #FDD5BD*/ #ffc1aa;
+    height: 100vh;
+}
+
+#main {
+    height: 80vh;
+}
+
+#control {
+    padding-left: 150px;
+}
+
+/* Header */
+
+#header h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+#header p {
+    margin-top: -15px;
+    font-family: 'Petit Formal Script', cursive;
+    color: white;
+    font-size: 25px;
+}
+
+#header span {
+    font-size: 25px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+#header i {
+    font-size: 25px;
+    color: white;
+}
+
+#header {
+    margin-top: 80px;
+}
+
+/* Control icons */
+
+#control button{
+    border: 0;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+#animation i {
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+}
+
+#animation {
+    float: right;
+    padding-top: 20px;
+}
+
+/* Animation */
+
+#animate {
+    margin: 12% auto 0 auto;
+    max-width: 30vw;
+    max-height: 50vh;
+}
+
+#big-square {
+    height: 150px;
+    width: 150px;
+    background-color: #D66565;
+    margin: auto;
+}
+
+#big-circle {
+    position: relative;
+    top: -100px;
+    left: 100px;
+
+    height: 200px;
+    width: 200px;
+    background-color: #6AA9A4;
+    border-radius: 50%;
+}
+
+#big-triangle {
+    position: relative;
+    top: -200px;
+    left: 50px;
+
+    height: 0px;
+    width: 0px;
+    border-right: 80px solid transparent;
+    border-left: 80px solid transparent;
+    border-bottom: 130px solid #ED9A7E;
+}
+
+#small-circle {
+    position: relative;
+    top: -350px;
+    left: 25px;
+
+    height: 100px;
+    width: 100px;
+    background-color: #EF7E7E;
+    border-radius: 50%;
+}
+
+#small-triangle {
+    position: relative;
+    top: -500px;
+    left: 150px;
+
+    height: 0px;
+    width: 0px;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 80px solid #EF7E7E;
+}
+
+#small-square {
+    position: relative;
+    top: -450px;
+
+    height: 50px;
+    width: 50px;
+    background-color: #EF7E7E;
+    margin: auto;
+}
+
+/* Bottom buttons */
+
+#buttons {
+    margin:auto;
+    width: 80%;
+}
+
+#buttons a {
+    z-index: 2000;
+}
+
+#links {
+    display: inline-block;
+}
+
+#social {
+    width: 70%;
+    display: inline-block;
+    text-align:right;
+}
+
+#social i {
+    transition: .2s;
+    border-radius: 50%;
+    padding: 13px;
+    font-size: 20px;
+    background-color: white;
+    color: #EF7E7E;
+    text-decoration: none;
+}
+
+#social i:hover {
+    transition: .2s;
+    font-size: 22px;
+}
+
+#links a:hover {
+    transition: .5s;
+    border-bottom: 5px double rgba(255,255,255,1);
+}
+
+#links a {
+    transition: .5s;
+    padding: 13px;
+    font-size: 18px;
+    background-color: white;
+    color: #EF7E7E;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 5px double rgba(255,255,255,0);
+}
+
+#port {
+    background-color: transparent !important;
+    color: white !important;
+    font-weight:800;
+}
+
+#port img {
+    padding-left: 5px;
+    width: 25px;
+}
+
+/* Portfolio */
+
+#portfolio {
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+#asma-h1 {
+    font-family: 'Petit Formal Script', cursive;
+}
+
+#mini-h1 {
+    font-family: 'Skranji', sans-serif;
+}
+
+.left-h1 {
+    font-size: 45px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.left-number {
+    color: rgb(230, 227, 227, 0.5);
+    font-size: 150px;
+    font-family: 'Hanuman', serif;
+
+    position: absolute;
+    left: 150px;
+}
+
+#right-h1 {
+    font-family: 'Exo', sans-serif;
+    font-size: 45px;
+    margin-top: 200px;
+    text-align: right;
+    padding-right: 100px;
+}
+
+#right-number {
+    color: rgb(230, 227, 227, 0.5);
+    font-size: 150px;
+    font-family: 'Hanuman', serif;
+    margin-top: 100px;
+    position: absolute;
+    right: 150px;
+}
+
+.dscr {
+    font-family: 'Nunito', sans-serif;
+}
+
+.dscr-left {
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.dscr-right {
+    text-align: right;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.shwc-left img {
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+}
+
+.dscr-right img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.shwc {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.shwc h2 {
+    font-family: 'Exo', sans-serif;
+    color: lightgrey;
+}
+
+.shwc h3 {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.shwc h3 span {
+    background-color: gainsboro;
+    font-size: 18px;
+    padding: 2px 9px;
+    border-radius: 50%;
+    vertical-align: middle;
+    color: white;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.shwc p {
+    width: 70%;
+    margin: auto;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.colors {
+    margin-top: 20px;
+}
+
+#orange {
+    background-color: #F9A53A;
+    width: 50px;
+    float: right;
+    height: 50px;
+    border-radius: 7px;
+}
+
+#blue {
+    background-color: #006699;
+    width: 50px;
+    float: left;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.logos {
+    margin-top: 30px;
+}
+
+.logos .col-md-1 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.logos img {
+    width: 100%;
+}
+.wireframes img {
+    width: 95%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+}
+
+.bottom {
+    margin-top: 30px;
+}
+
+#add {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#projects {
+    margin-top: -100px;
+}
+
+#projects img {
+    width: 95%;
+    margin-bottom: 50px;
+}
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    background-color: #FFC1AA;
+    padding: 100px;
+    color: white;
+}
+
+#contact h1 {
+    font-family: 'Exo', sans-serif;
+}
+
+#contact h4 {
+    font-family: 'Nunito', sans-serif;
+}
+
+#contact .row {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+/* CSS animations */
+
+
+  
