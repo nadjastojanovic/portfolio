@@ -13,6 +13,10 @@ Here are some of the web development projects I have worked on recently:
 - [Pomodoro Clock](https://nadjastojanovic.github.io/pomodoro-clock/)
 - [Calculator](https://nadjastojanovic.github.io/calculator/)
 
+### Design
+
+- I designed banners and posters for UVCT, an Indian NGO which promotes education among the youth.
+
 ### Skills
 
 - HTML, CSS and JavaScript
