@@ -1,41 +1,44 @@
+/* Setup */ 
+
 body {
-    width: 100%;
-    height: 100%;
     overflow-x: hidden;
 }
 
+.w-90 {
+    width: 90%;
+}
+
+.spacer {
+    width: 100%;
+    height: 20vh;
+}
+
+/* Welcome Section */
+
 #welcome {
-    background-color:/* #FDD5BD*/ #ffc1aa;
+    color: white;
+    background-color: #ffc1aa;
     height: 100vh;
 }
 
-#main {
-    height: 80vh;
+#header {
+    padding: 100px;
 }
 
-#control {
-    padding-left: 150px;
-}
-
-/* Header */
-
-#header h1 {
+#welcome h1 {
     font-size: 45px;
-    color: white;
     font-family: 'Exo', sans-serif;
 }
 
-#header p {
-    margin-top: -15px;
+#welcome h2 {
     font-family: 'Petit Formal Script', cursive;
-    color: white;
     font-size: 25px;
+    margin-top: -15px;
 }
 
-#header span {
-    font-size: 25px;
-    color: white;
+#welcome p {
     font-family: 'Nunito', sans-serif;
+    font-size: 25px;
 }
 
 #header i {
@@ -43,16 +46,16 @@ body {
     color: white;
 }
 
-#header {
-    margin-top: 80px;
+#animation {
+    position: absolute;
+    left: 50%;
+    top: 40vh;
 }
 
-/* Control icons */
-
-#control button{
+#animation button{
     border: 0;
     background-color: transparent;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #animation i {
@@ -61,15 +64,8 @@ body {
     border-radius: 50%;
 }
 
-#animation {
-    float: right;
-    padding-top: 20px;
-}
-
-/* Animation */
-
 #animate {
-    margin: 12% auto 0 auto;
+    margin: 8% auto;
     max-width: 30vw;
     max-height: 50vh;
 }
@@ -137,10 +133,8 @@ body {
     margin: auto;
 }
 
-/* Bottom buttons */
-
 #buttons {
-    margin:auto;
+    margin: auto;
     width: 80%;
 }
 
@@ -155,7 +149,7 @@ body {
 #social {
     width: 70%;
     display: inline-block;
-    text-align:right;
+    text-align: right;
 }
 
 #social i {
@@ -192,7 +186,7 @@ body {
 #port {
     background-color: transparent !important;
     color: white !important;
-    font-weight:800;
+    font-weight: 800;
 }
 
 #port img {
@@ -202,23 +196,16 @@ body {
 
 /* Portfolio */
 
-#portfolio {
-    padding-top: 75px;
-    padding-bottom: 100px;
-}
-
-#asma-h1 {
-    font-family: 'Petit Formal Script', cursive;
-}
-
-#mini-h1 {
-    font-family: 'Skranji', sans-serif;
+.details {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+    margin: 20px auto;
+    width: 90%;
 }
 
 .left-h1 {
     font-size: 45px;
-    margin-top: 100px;
-    margin-left: 100px;
 }
 
 .left-number {
@@ -226,40 +213,33 @@ body {
     font-size: 150px;
     font-family: 'Hanuman', serif;
 
-    position: absolute;
-    left: 150px;
+    position: relative;
+    top: 120px;
+    left: 5%;
 }
 
-#right-h1 {
-    font-family: 'Exo', sans-serif;
+.right-h1 {
     font-size: 45px;
-    margin-top: 100px;
     text-align: right;
-    padding-right: 100px;
 }
 
-#right-number {
+.right-number {
     color: rgb(230, 227, 227, 0.5);
     font-size: 150px;
     font-family: 'Hanuman', serif;
-    
-    position: absolute;
-    right: 150px;
+
+    position: relative;
+    top: 120px;
+    left: 90%;
+
 }
 
 .dscr {
     font-family: 'Nunito', sans-serif;
 }
 
-.dscr-left {
-    padding-left: 150px;
-    padding-top: 50px;
-}
-
 .dscr-right {
     text-align: right;
-    padding-right: 150px;
-    padding-top: 50px;
 }
 
 .shwc-left img {
@@ -277,7 +257,6 @@ body {
 
 .shwc {
     margin-top: -20px;
-    text-align: center;
 }
 
 .shwc h2 {
@@ -300,13 +279,6 @@ body {
     color: white;
     font-weight: 800;
     margin-right: 5px;
-}
-
-.shwc p {
-    width: 70%;
-    margin: auto;
-    font-size: 13px;
-    font-family: 'Nunito', sans-serif;
 }
 
 .colors {
@@ -390,7 +362,6 @@ body {
 
 .intern-row {
     padding-top: 50px;
-    margin-left: 30px;
 }
 
 .intern-row img {
@@ -399,6 +370,51 @@ body {
 
 .intern-design {
     margin-top: 12px;
+}
+
+/* Asma Audit & Conseil */
+
+#asm {
+    padding: 0 50px;
+}
+
+#asm h1 {
+    font-family: 'Petit Formal Script', cursive;
+}
+
+/* UVCT Web Dev Internship */
+
+#uvct {
+    padding: 0 50px;
+}
+
+#wireframe {
+    border-radius: 10px;
+}
+
+/* Wild Blue Catering */
+
+#wbc {
+    padding: 0 50px;
+}
+
+#wbc img {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+}
+
+/* Perspektiva */
+
+#prs {
+    padding: 0 50px;
+}
+
+/* Mini Projects */
+
+#mnp {
+    padding: 0 50px;
 }
 
 /* Contact */
