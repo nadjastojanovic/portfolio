@@ -382,6 +382,10 @@ body {
     font-family: 'Petit Formal Script', cursive;
 }
 
+#asm-intro {
+    padding-top: 75px;
+}
+
 /* UVCT Web Dev Internship */
 
 #uvct {
@@ -447,7 +451,68 @@ body {
     font-size: 70px;
 }
 
-/* CSS animations */
+/* Media queries */
 
-
-  
+@media (max-width: 481px) {
+    #welcome {
+        height: auto;
+    }
+    #header {
+        padding: 20px 50px;
+    }
+    #animation, #animate {
+        display: none;
+    }
+    #social {
+        margin: 50px 0;
+        width: auto;
+    }
+    .shwc-right h2 {
+        margin: 20px 0;
+    }
+    .logos {
+        display: none;
+    }
+    #projects {
+        margin-top: 50px;
+    }
+    #contact {
+        padding: 20px;
+    }
+    .dscr-right p, .dscr-left p {
+        margin: 20px 0;
+    }
+    .dscr-right, .dscr-left {
+        text-align: center;
+    }
+    .shwc-left img, .shwc-right img {
+        width: 100%;
+    }
+    .right-h1, .left-h1 {
+        font-size: 35px;
+        margin: 30px 0;
+    }
+    .intern-row p {
+        text-align: center;
+    }
+    .details {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .shwc h3 {
+        font-size: 20px;
+    }
+    #add {
+        display: none;
+    }
+    .right-number {
+        left: 80%;
+        font-size: 100px;
+    }
+    .left-number {
+        font-size: 100px;
+    }
+    #asm-intro {
+        padding-top: 0;
+    }
+  }
